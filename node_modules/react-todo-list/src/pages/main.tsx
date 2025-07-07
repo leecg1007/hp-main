@@ -22,11 +22,11 @@ export const Main = ({ userInfo }: any) => {
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
             <h1>TODO LIST</h1>
             <Button onClick={handleLogout} variant="outlined" size="small">
-              Logout
+              로그아웃
             </Button>
           </div>
           <div>
-            <span>Hello <strong>{userInfo.displayName}</strong></span>
+            <span>어서오고 <strong>{userInfo.displayName}</strong></span>
           </div>
         </div>
         <div className={"todo-box"}>

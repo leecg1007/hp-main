@@ -52,7 +52,7 @@ export const Login = () => {
             <TextField
                 onChange={onChange}
                 value={email}
-                label="email"
+                label="이메일"
                 variant="outlined"
                 name={"email"}
                 type={"email"}

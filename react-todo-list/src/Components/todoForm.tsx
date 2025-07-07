@@ -49,7 +49,7 @@ export const TodoForm = ({ userInfo }: TodoFormType) => {
   return (
     <TodoFormWrap>
       <div className={'task-title'}>
-        Enter Your Task
+        할 일 추가
       </div>
       <div className={'task-input-box'}>
         <div>
@@ -57,7 +57,7 @@ export const TodoForm = ({ userInfo }: TodoFormType) => {
               onChange={onChange}
               value={task}
               name={"task"}
-              placeholder={"What is your task"}
+              placeholder={"할 일"}
               type={"text"}
           />
         </div>
@@ -72,7 +72,7 @@ export const TodoForm = ({ userInfo }: TodoFormType) => {
         </div>
         <div>
           <Button onClick={onClick} type={"button"} variant={"contained"}>
-            Submit
+            추가하기
           </Button>
         </div>
       </div>

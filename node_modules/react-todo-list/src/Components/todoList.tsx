@@ -74,9 +74,9 @@ export const TodoList = ({ userInfo }: TodoListType) => {
           <Table stickyHeader={true}>
             <TableHead>
               <TableRow>
-                <StyledTableCell>Task</StyledTableCell>
-                <StyledTableCell>Dead Line</StyledTableCell>
-                <StyledTableCell>Done</StyledTableCell>
+                <StyledTableCell>할 일</StyledTableCell>
+                <StyledTableCell>기한</StyledTableCell>
+                <StyledTableCell>ㄲ ㅡ ㅌ</StyledTableCell>
               </TableRow>
             </TableHead>
             <TableBody>

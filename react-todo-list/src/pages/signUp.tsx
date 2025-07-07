@@ -1,6 +1,6 @@
 
 import React, {ChangeEvent, useState} from "react";
-import {useNavigate} from "react-router-dom";
+import {Link,useNavigate} from "react-router-dom";
 import moment from "moment";
 
 // FIREBASE
@@ -53,27 +53,35 @@ export const SignUp = () => {
 
     return <UserForm>
         <div className={'doc-title'}>
-            <span>Sign Up</span>
+            <span>회원가입</span>
         </div>
         <article className={'user-form-article'}>
             <div className={'user-form-wrap'}>
                 <div className={'user-form'}>
                     <form onSubmit={onSubmit}>
-                        <TextField label="email" variant="outlined"
+                        <TextField label="이메일" variant="outlined"
                                 onChange={onChange} value={email} name={'email'} type={'email'}
                                 required/>
-                        <TextField label="displayName" variant="outlined"
+                        <TextField label="이름" variant="outlined"
                                 onChange={onChange} value={displayName} name={'displayName'} type={'text'}
                                 required/>
-                        <TextField label="password" variant="outlined"
+                        <TextField label="비밀번호" variant="outlined"
                                 onChange={onChange} value={password} name={'password'} type={'password'}
                                 required/>
                         <Button variant={'contained'} type={"submit"}
                                 disabled={email.length !== 0 && displayName?.length !== 0 && password.length !== 0 ? false : true}>
-                            Sign Up
+                            회원가입
                         </Button>
                     </form>
                 </div>
+                        <div className={"cont-link"}>
+            <Link
+            to={"/"}
+            style={{ textDecoration: "none", color: "inherit" }}
+            >
+            로그인
+            </Link>
+        </div>
             </div>
         </article>
     </UserForm>

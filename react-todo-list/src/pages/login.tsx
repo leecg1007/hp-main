@@ -43,7 +43,7 @@ export const Login = () => {
     return (
     <UserForm>
         <div className={"doc-title"}>
-        <span>Login</span>
+        <span>로그인</span>
         </div>
         <article className={"user-form-article"}>
         <div className={"user-form-wrap"}>
@@ -74,7 +74,7 @@ export const Login = () => {
                 email.length !== 0 && password.length !== 0 ? false : true
                 }
             >
-                Log In
+                로그인
             </Button>
             </form>
         </div>

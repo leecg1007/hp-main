@@ -61,7 +61,7 @@ export const Login = () => {
             <TextField
                 onChange={onChange}
                 value={password}
-                label="password"
+                label="비밀번호"
                 variant="outlined"
                 name={"password"}
                 type={"password"}

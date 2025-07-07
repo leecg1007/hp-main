@@ -1,0 +1,10 @@
+{
+  "name": "root-config",
+  "private": true,
+  "workspaces": [
+    "react-todo-list"
+  ],
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}

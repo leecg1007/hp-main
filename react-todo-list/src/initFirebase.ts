@@ -17,8 +17,8 @@ const firebaseApp = initializeApp(firebaseConfig);
 export const firebaseAuth = getAuth(firebaseApp);
 export const fireStoreJob = getFirestore(firebaseApp);
 
-console.log("API KEY:", process.env.REACT_APP_FIREBASE_API_KEY);
-console.log("🔥 Firebase App Initialized:", firebaseApp.name); // "[DEFAULT]"라고 나옴
+//console.log("API KEY:", process.env.REACT_APP_FIREBASE_API_KEY);
+//console.log("🔥 Firebase App Initialized:", firebaseApp.name); // "[DEFAULT]"라고 나옴
 
 export {}
 

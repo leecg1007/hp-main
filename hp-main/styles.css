@@ -19,6 +19,21 @@ header {
     padding: 7px;
 }
 
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .main-banner {
     background-color: #373737;
     padding-bottom: 130px;
@@ -98,6 +113,13 @@ header {
     text-decoration: underline;
 } 
 
+footer {
+    bottom: 0;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
 
 .btn{
     float : left;
@@ -136,10 +158,4 @@ header {
     text-align: center;
 }
 
-footer {
-    bottom: 0;
-    background-color: #222;
-    color: white;
-    padding: 10px;
-    width: 100%;
-}
+

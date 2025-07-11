@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>알림 - 리스트 동그라미</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background: #f5f7fa;
+      margin: 30px;
+      color: #333;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+    .notice-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    .notice {
+      background: white;
+      border-radius: 8px;
+      padding: 15px 20px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+    }
+    .notice h3 {
+      margin: 0 0 10px;
+      color: #007bff;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 6px;
+      font-weight: 600;
+    }
+    ul.notice-list {
+      list-style-type: disc;
+      padding-left: 20px;
+      margin: 0;
+      color: #555;
+      font-size: 15px;
+    }
+    ul.notice-list li {
+      margin-bottom: 6px;
+    }
+    /* 검은색 강조 스타일 */
+    .blk {
+      color: rgb(0, 0, 0);
+      font-weight: 600;
+    }
+    /* 주황색 강조 스타일 */
+    .highlight {
+      color: orange;
+      font-weight: 600;
+    }
+    /* 빨간색 강조 스타일 */
+    .veryhighlight {
+      color: rgb(255, 0, 0);
+      font-weight: 600;
+    }
+    /* 수정 업데이트 스타일 */
+    .update-box {
+      grid-column: 1 / -1;
+      text-align: center;
+      color: gray;
+      font-size: 13px;
+      font-style: italic;
+      margin-top: 20px;
+      background: white;
+      border-radius: 8px;
+      padding: 10px 0;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    .ppap {
+    color: black;
+    }
+  </style>
+</head>
+<body>
+  <header class="Title">
+    <h2>알림</h2>
+    <div style="text-align: right;">
+      <a class="ppap" href="hp.html">돌아가기</a>
+    </div>
+  </header>
+
+  <div class="notice-grid">
+    <div class="notice">
+      
+      <h3>가정통신문</h3>
+      <ul class="notice-list">
+        <li class="blk">교통 지원 신청서(07.08)</li>
+        
+      </ul>
+    </div>
+    <div class="notice">
+      
+      <h3>우리반 공지</h3>
+      <ul class="notice-list">
+        <p>없음.</p>
+      </ul>
+    </div>
+    <div class="notice">
+      
+      <h3>기숙사 공지</h3>
+      <ul class="notice-list">
+        <li class="blk">석식 시간: 17:40 ~ 18:10</li>
+        <li class="blk">밥 먹고 싶다</li>
+        <li class="highlight">2학기 기숙사 신청 - 지원기간(07.08~07.11)</li>
+      </ul>
+    </div>
+    <div class="notice">
+      
+      <h3>기타</h3>
+      <ul class="notice-list">
+        <li class="veryhighlight">7월 모의고사 (07.10)</li>
+      </ul>
+    </div>
+
+    <!-- 수정 업데이트 박스 -->
+    <div class="update-box">
+      수정 업데이트: 2025.07.08 12:20 -> 이거 노가다예요 업데이트가 느리다고 놀리지 마세요 ㅠ
+    </div>
+  </div>
+</body>
+</html>

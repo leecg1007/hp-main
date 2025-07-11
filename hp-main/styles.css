@@ -19,21 +19,6 @@ header {
     padding: 7px;
 }
 
-nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-nav ul li a {
-    color: white;
-    text-decoration: none;
-}
-
 .main-banner {
     background-color: #373737;
     padding-bottom: 130px;
@@ -41,6 +26,11 @@ nav ul li a {
     padding-left: 35px;
     padding-right: 35px;
     padding-top: 35px;
+    background-image: url('images/ppap123.jpeg');
+    background-position: center;
+    background-size: 1600px 599px;
+    background-repeat: no-repeat;
+    background-position: center -235px;
 }
 
 .grid-container {
@@ -113,13 +103,6 @@ nav ul li a {
     text-decoration: underline;
 } 
 
-footer {
-    bottom: 0;
-    background-color: #222;
-    color: white;
-    padding: 10px;
-    width: 100%;
-}
 
 .btn{
     float : left;
@@ -158,4 +141,34 @@ footer {
     text-align: center;
 }
 
+footer {
+    bottom: 0;
+    background-color: #222;
+    color: white;
+    padding: 10px;
+    width: 100%;
+}
+
+.aofcet {
+    position: relative;
+    top: -37px;
+    color: rgb(233, 233, 233);
+    font-size: 23px;
+}
+
+@media (max-width: 600px) {
+    .main-banner{
+        background-image: url('images/ppap123.jpeg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center -24px;
+    }
+    .aofcet {
+        position: relative;
+        top: -31px;
+        color: rgb(0, 0, 0);
+        font-size: 23px;
+    }
+}
 

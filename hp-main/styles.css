@@ -44,13 +44,15 @@ header {
     padding-bottom: 40px;
 }
 
-.grid-item1 {
+a.grid-item1, a.grid-item1:visited a.grid-item1:active, a.grid-item1:hover {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 25px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-decoration: none;
+    color: black;
 }
 .grid-item2 {
     padding: 40px;
@@ -61,21 +63,25 @@ header {
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.grid-item3 {
+a.grid-item3, a.grid-item3:visited a.grid-item3:active, a.grid-item3:hover {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 25px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-decoration: none;
+    color: black;
 }
-.grid-item4 {
+a.grid-item4, a.grid-item4:visited a.grid-item4:active, a.grid-item4:hover {
     padding: 40px;
     background-color: #e0e0e0;
     font-size: 25px;
     border-radius: 10px;
     padding-top: 50px;
     padding-bottom: 50px;
+    text-decoration: none;
+    color: black;
 }
 .grid-item5 {
     padding: 40px;

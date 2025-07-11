@@ -18,10 +18,15 @@
     }
     .exam-grid {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr; /* 기본 1열 */
       gap: 30px;
       max-width: 700px;
       margin: 0 auto;
+    }
+    @media (min-width: 768px) {
+      .exam-grid {
+        grid-template-columns: 1fr 1fr; /* 768px 이상에서 2열 */
+      }
     }
     .exam-section {
       background: white;
@@ -66,7 +71,17 @@
         <li>영어 독해와 작문 : X</li>
         <li>확률과 통계 : X</li>
         <li>미적분 : X</li>
-        <li>?</li>
+        <li>생활과 과학 : X</li>
+        <li>사회●문화 : X</li>
+        <li>세계지리 : X</li>
+        <li>경제 : X</li>
+        <li>동아시아사 : X</li>
+        <li>생활과 윤리 : X</li>
+        <li>물리학2 : X</li>
+        <li>화학2 : X</li>
+        <li>생명과학2 : X</li>
+        <li>지구과학2 : X</li>
+        
       </ul>
     </div>
     <div class="exam-section">
